@@ -4,52 +4,68 @@ document.addEventListener('DOMContentLoaded', startGame)
 var board = {
   cells: [{
       row: 0,
+    col: 0,
+      hidden: true,
+    }, {
+      row: 0,
+      col: 1,
+      hidden: true, 
+    }, {
+      row: 0,
+      col: 2,
+      hidden: true,
+    }, {
+      row: 0,
+      col: 3,
+      hidden: true,
+    }, {
+      row: 1,
       col: 0,
-      }, {
-      row: 0,
-      col: 1
-    }, {
-      row: 0,
-      col: 2
-    }, {
-      row: 0,
-      col: 3
+      hidden: true,
     }, {
       row: 1,
-      col: 0
+      col: 1,
+      hidden: true,
     }, {
       row: 1,
-      col: 1
+      col: 2,
+      hidden: true,
     }, {
       row: 1,
-      col: 2
-    }, {
-      row: 1,
-      col: 3
+      col: 3,
+      hidden: true,
     }, {
       row: 2,
-      col: 0
+      col: 0,
+      hidden: true,
     }, {
       row: 2,
-      col: 1
+      col: 1,
+      hidden: true,
     }, {
       row: 2,
-      col: 2
+      col: 2,
+      hidden: true,
     }, {
       row: 2,
-      col: 3
+      col: 3,
+      hidden: true,
     }, {
       row: 3,
-      col: 0
+      col: 0,
+      hidden: true,
     }, {
       row: 3,
-      col: 1
+      col: 1,
+      hidden: true,
     }, {
       row: 3,
-      col: 2
+      col: 2,
+      hidden: true,
     }, {
       row: 3,
-      col: 3
+      col: 3,
+      hidden: true,
     }
     ]
 }
